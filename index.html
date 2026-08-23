@@ -32,8 +32,18 @@
       </div>
 
       <div class="actions actions-report">
-        <button id="exportBtn" class="export">Esporta errori</button>
-        <button id="copyBtn">Copia errori</button>
+        <button type="button" id="exportBtn" class="export">Esporta errori</button>
+        <button type="button" id="copyBtn">Copia errori</button>
+      </div>
+
+      <div id="reportPanel" style="display:none;background:#fff;border:1px solid #d6dde8;border-radius:14px;padding:10px;margin-top:8px;">
+        <div style="font-weight:800;margin-bottom:7px;">Report errori</div>
+        <textarea id="reportText" readonly
+          style="width:100%;height:240px;border:1px solid #d6dde8;border-radius:10px;padding:9px;font:13px/1.35 -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;"></textarea>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:7px;">
+          <button type="button" id="shareReportBtn" style="border:1px solid #d6dde8;border-radius:10px;padding:9px;background:#17365D;color:white;font-weight:800;">Condividi</button>
+          <button type="button" id="closeReportBtn" style="border:1px solid #d6dde8;border-radius:10px;padding:9px;background:white;font-weight:800;">Chiudi</button>
+        </div>
       </div>
 
       <div class="progress"><div id="progressBar"></div></div>
@@ -48,6 +58,152 @@
     </footer>
   </main>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
+
+<script>
+(function(){
+  const REPORT_STORAGE_KEY = 'quizTaxiMilanoProgress_v1';
+  const panel = document.getElementById('reportPanel');
+  const textArea = document.getElementById('reportText');
+  const exportBtn = document.getElementById('exportBtn');
+  const copyBtn = document.getElementById('copyBtn');
+  const shareBtn = document.getElementById('shareReportBtn');
+  const closeBtn = document.getElementById('closeReportBtn');
+
+  let cachedQuestions = null;
+
+  async function getQuestions(){
+    if(cachedQuestions) return cachedQuestions;
+    const r = await fetch('questions.json?v=4', {cache:'no-store'});
+    if(!r.ok) throw new Error('Impossibile caricare questions.json');
+    const data = await r.json();
+    cachedQuestions = data.questions;
+    return cachedQuestions;
+  }
+
+  function getSavedState(){
+    try{
+      const raw = localStorage.getItem(REPORT_STORAGE_KEY);
+      const parsed = raw ? JSON.parse(raw) : null;
+      return (parsed && parsed.answers) ? parsed : {answers:{}, lastQuestion:1};
+    }catch(e){
+      return {answers:{}, lastQuestion:1};
+    }
+  }
+
+  async function buildText(){
+    const questions = await getQuestions();
+    const saved = getSavedState();
+    const answers = saved.answers || {};
+    const keys = Object.keys(answers).map(Number).sort((a,b)=>a-b);
+
+    let correct = 0;
+    const errors = [];
+
+    keys.forEach(index=>{
+      const a = answers[index];
+      if(!a) return;
+      if(a.correct) correct++;
+      else{
+        const q = questions[index-1];
+        if(!q) return;
+        const selected = q.options[a.choice] ? q.options[a.choice].text : '(risposta non trovata)';
+        const right = q.options.filter(o=>o.correct).map(o=>o.text).join(' / ');
+        errors.push({
+          index,
+          master: q.masterNumber,
+          question: q.question,
+          selected,
+          right
+        });
+      }
+    });
+
+    const answered = keys.length;
+    const wrong = errors.length;
+    const pct = answered ? Math.round(correct/answered*100) : 0;
+
+    const lines = [
+      'REPORT ERRORI QUIZ TAXI MILANO',
+      '',
+      'Risposte date: ' + answered,
+      'Corrette: ' + correct,
+      'Errate: ' + wrong,
+      'Percentuale corrette: ' + pct + '%',
+      '',
+      'ERRORI:'
+    ];
+
+    if(!errors.length){
+      lines.push('Nessun errore salvato.');
+    }else{
+      errors.forEach((e,i)=>{
+        lines.push(
+          '',
+          (i+1) + '. Quiz ' + e.index + ' · Master n. ' + e.master,
+          'Domanda: ' + e.question,
+          'Hai risposto: ' + e.selected,
+          'Corretta: ' + e.right
+        );
+      });
+    }
+    return lines.join('\n');
+  }
+
+  async function showReport(){
+    try{
+      const text = await buildText();
+      textArea.value = text;
+      panel.style.display = 'block';
+      panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+    }catch(e){
+      alert('Errore nella creazione del report: ' + e.message);
+    }
+  }
+
+  async function copyReport(){
+    try{
+      const text = await buildText();
+      textArea.value = text;
+      panel.style.display = 'block';
+
+      try{
+        await navigator.clipboard.writeText(text);
+        alert('Errori copiati negli appunti.');
+      }catch(e){
+        textArea.focus();
+        textArea.select();
+        const ok = document.execCommand('copy');
+        if(ok) alert('Errori copiati negli appunti.');
+        else alert('Il report è visibile qui sotto: tieni premuto sul testo e scegli Copia.');
+      }
+    }catch(e){
+      alert('Errore nella creazione del report: ' + e.message);
+    }
+  }
+
+  async function shareReport(){
+    const text = textArea.value || await buildText();
+    if(navigator.share){
+      try{
+        await navigator.share({title:'Errori Quiz Taxi', text:text});
+        return;
+      }catch(e){
+        if(e && e.name === 'AbortError') return;
+      }
+    }
+    textArea.value = text;
+    textArea.focus();
+    textArea.select();
+    alert('Condivisione diretta non disponibile. Il report è selezionato: scegli Copia.');
+  }
+
+  exportBtn.addEventListener('click', showReport);
+  copyBtn.addEventListener('click', copyReport);
+  shareBtn.addEventListener('click', shareReport);
+  closeBtn.addEventListener('click', ()=>{panel.style.display='none';});
+})();
+</script>
+
 </body>
 </html>
