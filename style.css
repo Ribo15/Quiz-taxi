@@ -39,3 +39,15 @@ footer{text-align:center;color:var(--muted);font-size:12px;line-height:1.4;paddi
 @media(max-width:520px){
   .question{font-size:18px}.kpi b{font-size:16px}.actions button{font-size:12px;padding:9px 3px}
 }
+
+
+/* Report errori */
+.actions-report{
+  grid-template-columns:1fr 1fr;
+  margin-top:6px;
+}
+.actions .export{
+  background:#e8f0ff;
+  color:#17365D;
+  border-color:#b8c8e4;
+}

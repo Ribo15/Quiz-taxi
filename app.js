@@ -177,6 +177,143 @@ document.getElementById('resetBtn').addEventListener('click',()=>{
 window.addEventListener('beforeunload',saveProgress);
 document.addEventListener('visibilitychange',()=>{if(document.hidden) saveProgress();});
 
+
+function buildErrorReport(){
+  if(!DATA) return null;
+
+  const errorEntries = Object.keys(state.answers)
+    .map(Number)
+    .sort((a,b)=>a-b)
+    .filter(index => state.answers[index] && !state.answers[index].correct)
+    .map(index => {
+      const q = DATA.questions[index-1];
+      const saved = state.answers[index];
+      if(!q || !saved) return null;
+
+      const selected = q.options[saved.choice] ? q.options[saved.choice].text : '';
+      const correctAnswers = q.options.filter(o=>o.correct).map(o=>o.text);
+
+      return {
+        numeroQuiz: index,
+        numeroMaster: q.masterNumber,
+        domanda: q.question,
+        rispostaData: selected,
+        rispostaCorretta: correctAnswers.join(' / ')
+      };
+    })
+    .filter(Boolean);
+
+  const s = stats();
+
+  return {
+    titolo: 'Report errori Quiz Taxi Milano',
+    generatoIl: new Date().toISOString(),
+    riepilogo: {
+      risposteDate: s.answered,
+      corrette: s.correct,
+      errate: s.wrong,
+      percentualeCorrette: s.answered ? Math.round(s.correct/s.answered*100) : 0
+    },
+    errori: errorEntries
+  };
+}
+
+function reportAsText(report){
+  const r = report.riepilogo;
+  const lines = [
+    'REPORT ERRORI QUIZ TAXI MILANO',
+    '',
+    `Risposte date: ${r.risposteDate}`,
+    `Corrette: ${r.corrette}`,
+    `Errate: ${r.errate}`,
+    `Percentuale corrette: ${r.percentualeCorrette}%`,
+    '',
+    'ERRORI:'
+  ];
+
+  if(!report.errori.length){
+    lines.push('Nessun errore salvato.');
+  }else{
+    report.errori.forEach((e,i)=>{
+      lines.push(
+        '',
+        `${i+1}. Quiz ${e.numeroQuiz} · Master n. ${e.numeroMaster}`,
+        `Domanda: ${e.domanda}`,
+        `Hai risposto: ${e.rispostaData}`,
+        `Corretta: ${e.rispostaCorretta}`
+      );
+    });
+  }
+  return lines.join('\n');
+}
+
+async function exportErrors(){
+  const report = buildErrorReport();
+  if(!report) return;
+
+  if(!report.errori.length){
+    showStatus('Non ci sono errori da esportare.');
+    return;
+  }
+
+  const text = reportAsText(report);
+  const filename = `errori_quiz_taxi_${new Date().toISOString().slice(0,10)}.txt`;
+  const blob = new Blob([text], {type:'text/plain;charset=utf-8'});
+  const file = new File([blob], filename, {type:'text/plain'});
+
+  // Su iPhone/Safari prova prima il pannello Condividi.
+  try{
+    if(navigator.canShare && navigator.canShare({files:[file]})){
+      await navigator.share({
+        files:[file],
+        title:'Errori Quiz Taxi',
+        text:'Report degli errori salvati nel Quiz Taxi Milano'
+      });
+      showStatus('Report errori condiviso.');
+      return;
+    }
+  }catch(e){
+    if(e && e.name === 'AbortError') return;
+  }
+
+  // Fallback universale: download del file.
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  showStatus('Report errori scaricato.');
+}
+
+async function copyErrors(){
+  const report = buildErrorReport();
+  if(!report) return;
+  const text = reportAsText(report);
+
+  try{
+    await navigator.clipboard.writeText(text);
+    showStatus(report.errori.length ? 'Errori copiati negli appunti.' : 'Riepilogo copiato.');
+  }catch(e){
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position='fixed';
+    ta.style.opacity='0';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    document.execCommand('copy');
+    ta.remove();
+    showStatus('Errori copiati negli appunti.');
+  }
+}
+
+document.getElementById('exportBtn').addEventListener('click', exportErrors);
+document.getElementById('copyBtn').addEventListener('click', copyErrors);
+
+
 fetch('questions.json', {cache:'no-store'})
   .then(r=>{
     if(!r.ok) throw new Error('questions.json non trovato');
