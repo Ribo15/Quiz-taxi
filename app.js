@@ -204,10 +204,7 @@ function buildErrorReport(){
     .filter(Boolean);
 
   const s = stats();
-
   return {
-    titolo: 'Report errori Quiz Taxi Milano',
-    generatoIl: new Date().toISOString(),
     riepilogo: {
       risposteDate: s.answered,
       corrette: s.correct,
@@ -257,35 +254,36 @@ async function exportErrors(){
   }
 
   const text = reportAsText(report);
-  const filename = `errori_quiz_taxi_${new Date().toISOString().slice(0,10)}.txt`;
-  const blob = new Blob([text], {type:'text/plain;charset=utf-8'});
-  const file = new File([blob], filename, {type:'text/plain'});
 
-  // Su iPhone/Safari prova prima il pannello Condividi.
+  // iPhone/Safari: usa prima il pannello Condividi con testo semplice.
   try{
-    if(navigator.canShare && navigator.canShare({files:[file]})){
+    if(navigator.share){
       await navigator.share({
-        files:[file],
         title:'Errori Quiz Taxi',
-        text:'Report degli errori salvati nel Quiz Taxi Milano'
+        text:text
       });
-      showStatus('Report errori condiviso.');
+      showStatus('Report condiviso.');
       return;
     }
   }catch(e){
     if(e && e.name === 'AbortError') return;
   }
 
-  // Fallback universale: download del file.
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(()=>URL.revokeObjectURL(url),1000);
-  showStatus('Report errori scaricato.');
+  // Fallback: copia negli appunti.
+  try{
+    await navigator.clipboard.writeText(text);
+    showStatus('Condivisione non disponibile: errori copiati negli appunti.');
+  }catch(e){
+    const ta=document.createElement('textarea');
+    ta.value=text;
+    ta.style.position='fixed';
+    ta.style.left='-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    ta.remove();
+    showStatus('Errori copiati negli appunti.');
+  }
 }
 
 async function copyErrors(){
@@ -295,14 +293,13 @@ async function copyErrors(){
 
   try{
     await navigator.clipboard.writeText(text);
-    showStatus(report.errori.length ? 'Errori copiati negli appunti.' : 'Riepilogo copiato.');
+    showStatus('Errori copiati negli appunti.');
   }catch(e){
-    const ta = document.createElement('textarea');
-    ta.value = text;
+    const ta=document.createElement('textarea');
+    ta.value=text;
     ta.style.position='fixed';
-    ta.style.opacity='0';
+    ta.style.left='-9999px';
     document.body.appendChild(ta);
-    ta.focus();
     ta.select();
     document.execCommand('copy');
     ta.remove();
@@ -310,9 +307,10 @@ async function copyErrors(){
   }
 }
 
-document.getElementById('exportBtn').addEventListener('click', exportErrors);
-document.getElementById('copyBtn').addEventListener('click', copyErrors);
-
+const exportBtn = document.getElementById('exportBtn');
+const copyBtn = document.getElementById('copyBtn');
+if(exportBtn) exportBtn.addEventListener('click', exportErrors);
+if(copyBtn) copyBtn.addEventListener('click', copyErrors);
 
 fetch('questions.json', {cache:'no-store'})
   .then(r=>{
