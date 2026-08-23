@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17365D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Quiz Taxi Milano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <h1>Quiz Taxi Milano</h1>
+      <p>Master completo · 926 domande</p>
+    </header>
+
+    <section class="sticky">
+      <div class="kpis">
+        <div class="kpi">Risposte<b id="kAnswered">0/926</b></div>
+        <div class="kpi">Giuste<b id="kCorrect">0</b></div>
+        <div class="kpi">Errate<b id="kWrong">0</b></div>
+        <div class="kpi">Precisione<b id="kPct">0%</b></div>
+      </div>
+
+      <div class="actions">
+        <button id="resumeBtn" class="primary">Riprendi</button>
+        <button id="errorsBtn">Solo errori</button>
+        <button id="allBtn">Tutte</button>
+        <button id="resetBtn" class="danger">Azzera</button>
+      </div>
+
+      <div class="progress"><div id="progressBar"></div></div>
+      <div id="status" class="status"></div>
+    </section>
+
+    <section id="quiz"></section>
+
+    <footer>
+      Domande, alternative e chiavi copiate direttamente da Mastertaxi.xlsx.
+      La n. 786 mantiene le 2 risposte “ok” presenti nel file originale.
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
