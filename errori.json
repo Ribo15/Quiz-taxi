@@ -1,0 +1,1791 @@
+{
+  "version": "2026-08-28-errori-ciclo1",
+  "questions": [
+    {
+      "masterNumber": 9,
+      "question": "L'attesa del servizio di noleggio:",
+      "options": [
+        {
+          "text": "Attraverso lo stazionamento presso gli alberghi scelti dal conducente del veicolo ed elencati sulla licenza",
+          "correct": false
+        },
+        {
+          "text": "Attraverso la sosta in appositi posteggi istituiti dall'amministrazione comunale",
+          "correct": false
+        },
+        {
+          "text": "Attraverso lo stazionamento in apposite autorimesse",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 9
+    },
+    {
+      "masterNumber": 55,
+      "question": "Villa Mirabello si trova a:",
+      "options": [
+        {
+          "text": "Varese",
+          "correct": true
+        },
+        {
+          "text": "Monza",
+          "correct": false
+        },
+        {
+          "text": "Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 55
+    },
+    {
+      "masterNumber": 68,
+      "question": "Quale di queste città è famosa per il Torrazzo?",
+      "options": [
+        {
+          "text": "Cremona",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 68
+    },
+    {
+      "masterNumber": 74,
+      "question": "In caso di morte del titolare  di licenza può essere trasferita ad uno degli eredi appartenenti al nucleo famigliare del titolare qualora in possesso dei requisiti prescritti ovvero può essere trasferita ad altri:",
+      "options": [
+        {
+          "text": "Dietro autorizzazione del Presidente della regione",
+          "correct": false
+        },
+        {
+          "text": "Dietro autorizzazione del Sindaco",
+          "correct": true
+        },
+        {
+          "text": "Davanti al notaio curatore dell'eredità",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 74
+    },
+    {
+      "masterNumber": 78,
+      "question": "Il rapporto di lavoro del sostituto alla guida del taxi è regolato con un contratto di lavoro a tempo determinato secondo la disciplina della legge 18/4/1962 n° 230. A tal fine l'assunzione del sostituto alla guida è equiparata a quella effettuata per sostituire i lavoratori assenti, per i quali sussista il diritto alla conservazione del posto di lavoro:",
+      "options": [
+        {
+          "text": "Alla legge 18 Aprile 1962 n° 230 art. 1, comma 2 lettera b",
+          "correct": true
+        },
+        {
+          "text": "Al contratto collettivo nazionale dei lavoratori del pubblico impiego",
+          "correct": false
+        },
+        {
+          "text": "Ad un contratto in gestione per un termine non superiore a 12 mesi",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 78
+    },
+    {
+      "masterNumber": 95,
+      "question": "La certosa di Garegnano si trova:",
+      "options": [
+        {
+          "text": "Milano",
+          "correct": true
+        },
+        {
+          "text": "Pavia",
+          "correct": false
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 95
+    },
+    {
+      "masterNumber": 111,
+      "question": "La seconda città nella provincia di Bergamo in base al numero di abitanti è:",
+      "options": [
+        {
+          "text": "Treviglio",
+          "correct": true
+        },
+        {
+          "text": "Abbiategrasso",
+          "correct": false
+        },
+        {
+          "text": "Seriate",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 111
+    },
+    {
+      "masterNumber": 142,
+      "question": "La Commissione Regionale dura in carica:",
+      "options": [
+        {
+          "text": "Tre anni",
+          "correct": false
+        },
+        {
+          "text": "Cinque anni",
+          "correct": false
+        },
+        {
+          "text": "Quattro anni",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 142
+    },
+    {
+      "masterNumber": 149,
+      "question": "Con quale legge viene regolamentato il rapporto di lavoro con il sostituto alla guida?",
+      "options": [
+        {
+          "text": "La legge che regolamenta la collaborazione con ritenuta di acconto",
+          "correct": false
+        },
+        {
+          "text": "La legge n° 20/95",
+          "correct": false
+        },
+        {
+          "text": "La legge n° 230 del 18 Aprile 1962",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 149
+    },
+    {
+      "masterNumber": 160,
+      "question": "Quanti abitanti ha Busto Arsizio?",
+      "options": [
+        {
+          "text": "Da 65.000 a 70.000",
+          "correct": false
+        },
+        {
+          "text": "Da 70.000 a 75.000",
+          "correct": false
+        },
+        {
+          "text": "Da 75.000 a 80.000",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 160
+    },
+    {
+      "masterNumber": 161,
+      "question": "Le assicurazioni di cooperative di produzione lavoro, intendendo come tali quelle a proprietà collettiva, ovvero le cooperative di servizi, operanti in conformità alle norme vigenti sulla cooperazione sono:",
+      "options": [
+        {
+          "text": "L'unico modo per poter lavorare",
+          "correct": false
+        },
+        {
+          "text": "L'unico modo per potersi raggruppare",
+          "correct": false
+        },
+        {
+          "text": "Una figura giuridica",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 161
+    },
+    {
+      "masterNumber": 179,
+      "question": "Quale di questi laghi non ha un servizio pubblico di navigazione di linea:",
+      "options": [
+        {
+          "text": "Il lago di Lugano",
+          "correct": false
+        },
+        {
+          "text": "Il lago di Varese",
+          "correct": true
+        },
+        {
+          "text": "Il lago d'Iseo",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 179
+    },
+    {
+      "masterNumber": 205,
+      "question": "Per un periodo totale di ferie di 30 giorni in un anno, il titolare di licenza può farsi sostituire:",
+      "options": [
+        {
+          "text": "Si",
+          "correct": false
+        },
+        {
+          "text": "No",
+          "correct": false
+        },
+        {
+          "text": "Solo se il sostituto ha i requisiti",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 205
+    },
+    {
+      "masterNumber": 209,
+      "question": "Per il nuovo codice della strada le violazione delle disposizioni di cui all'art. 21 della Legge Regionale 15/4/1995 n° 20, comportano l'applicazione delle sanzioni pecuniarie:",
+      "options": [
+        {
+          "text": "A discrezione del vigile, valutata la gravità della violazione",
+          "correct": false
+        },
+        {
+          "text": "Mai",
+          "correct": false
+        },
+        {
+          "text": "Solo nella misura prevista",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 209
+    },
+    {
+      "masterNumber": 227,
+      "question": "La cittadina di Bosisio Parini si affaccia su un piccolo lago, quale?",
+      "options": [
+        {
+          "text": "Idro",
+          "correct": false
+        },
+        {
+          "text": "Lecco",
+          "correct": false
+        },
+        {
+          "text": "Pusiano",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 227
+    },
+    {
+      "masterNumber": 250,
+      "question": "A quanto ammonta la cifra cauzionale per una sosta eventuale di un'ora?",
+      "options": [
+        {
+          "text": "Euro 21,70",
+          "correct": true
+        },
+        {
+          "text": "Euro 25,82",
+          "correct": false
+        },
+        {
+          "text": "Euro 26,86",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 250
+    },
+    {
+      "masterNumber": 277,
+      "question": "Qual è la condizione per svolgere il servizio taxi:",
+      "options": [
+        {
+          "text": "Avere l'autorizzazione",
+          "correct": false
+        },
+        {
+          "text": "Essere proprietario dell'autovettura",
+          "correct": true
+        },
+        {
+          "text": "Avere a disposizione un'autovettura",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 277
+    },
+    {
+      "masterNumber": 290,
+      "question": "Quali sono i poteri della Sottocommissione:",
+      "options": [
+        {
+          "text": "Controllare il regolare svolgimento del servizio taxi",
+          "correct": false
+        },
+        {
+          "text": "Gli stessi poteri della Commissione Tecnico-Consultiva",
+          "correct": true
+        },
+        {
+          "text": "Il potere di decidere riguardo: numero, tipo e caratteristiche delle autovetture da piazza",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 290
+    },
+    {
+      "masterNumber": 291,
+      "question": "Quanti abitanti hanno Lecco, Lodi e Sondrio?",
+      "options": [
+        {
+          "text": "Meno di 50.000",
+          "correct": true
+        },
+        {
+          "text": "Tra 50.000 e 70.000",
+          "correct": false
+        },
+        {
+          "text": "Oltre 70.000",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 291
+    },
+    {
+      "masterNumber": 300,
+      "question": "Quanti abitanti ha Lodi:",
+      "options": [
+        {
+          "text": "Tra 50.000 e 100.000",
+          "correct": false
+        },
+        {
+          "text": "Oltre 100.000",
+          "correct": false
+        },
+        {
+          "text": "Meno di 50.000",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 300
+    },
+    {
+      "masterNumber": 311,
+      "question": "L'esistenza dei collaboratori familiari relativi ad una licenza taxi deve risultare:",
+      "options": [
+        {
+          "text": "Sulla licenza di esercizio",
+          "correct": false
+        },
+        {
+          "text": "Su apposito elenco da allegare alla licenza di esercizio",
+          "correct": true
+        },
+        {
+          "text": "Su foglio vidimato da allegare alla licenza di esercizio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 311
+    },
+    {
+      "masterNumber": 319,
+      "question": "Se gli eredi minori del titolare della licenza taxi manifestano l'intenzione di intestarsi la licenza, fino a che età la sostituzione alla guida si potrà protrarre :",
+      "options": [
+        {
+          "text": "Sino al raggiungimento della maggiore età",
+          "correct": false
+        },
+        {
+          "text": "Sino a che non abbiano raggiunto l'età minima stabilita dalla normativa vigente per la conduzione di autopubbliche da piazza",
+          "correct": true
+        },
+        {
+          "text": "Sino a che non abbiano raggiunto l'età stabilita dalla giunta Comunale",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 319
+    },
+    {
+      "masterNumber": 326,
+      "question": "Dove vengono effettuate le visite di controllo:",
+      "options": [
+        {
+          "text": "Presso la Motorizzazione Civile",
+          "correct": false
+        },
+        {
+          "text": "Presso l'ufficio Autopubbliche del Settore Trasporti e Mobilità",
+          "correct": true
+        },
+        {
+          "text": "Presso la commissione Tecnico-Consultiva",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 326
+    },
+    {
+      "masterNumber": 327,
+      "question": "Da chi è effettuata la visita di controllo sulle autovetture da piazza:",
+      "options": [
+        {
+          "text": "Dalla commissione Tecnico-Consultiva",
+          "correct": false
+        },
+        {
+          "text": "Da una delegazione della commissione Tecnico-Consultiva",
+          "correct": false
+        },
+        {
+          "text": "Da un'apposita Sottocommissione",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 327
+    },
+    {
+      "masterNumber": 335,
+      "question": "Quando gli incaricati della sorveglianza devono ritirare la licenza:",
+      "options": [
+        {
+          "text": "Quando accertino che l'autovettura è sudicia o danneggiata",
+          "correct": false
+        },
+        {
+          "text": "Quando accertino che il conducente sia privo di patente",
+          "correct": false
+        },
+        {
+          "text": "Quando accertino che l'autopubblica ha i contrassegni di macchina e/o di turno contraffatti",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 335
+    },
+    {
+      "masterNumber": 354,
+      "question": "Il passo del Tonale collega:",
+      "options": [
+        {
+          "text": "La provincia di Cremona con l'Emilia Romagna",
+          "correct": false
+        },
+        {
+          "text": "La Svizzera con la provincia di Sondrio",
+          "correct": false
+        },
+        {
+          "text": "La provincia di Brescia con il Trentino Alto Adige",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 354
+    },
+    {
+      "masterNumber": 361,
+      "question": "Quale di questi capolavori si trova a Milano?",
+      "options": [
+        {
+          "text": "La Cappella Colleoni",
+          "correct": false
+        },
+        {
+          "text": "Il Palazzo del Te",
+          "correct": false
+        },
+        {
+          "text": "Il Cenacolo di Leonardo da Vinci",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 361
+    },
+    {
+      "masterNumber": 375,
+      "question": "La Val Veddasca, la Val Tresa, la Valcuvia e la Valganna si trovano:",
+      "options": [
+        {
+          "text": "In provincia di Sondrio",
+          "correct": false
+        },
+        {
+          "text": "In provincia di Brescia",
+          "correct": false
+        },
+        {
+          "text": "In provincia di Varese",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 375
+    },
+    {
+      "masterNumber": 376,
+      "question": "Salò, nota a tutti per le vicende della II guerra Mondiale, su quale lago lombardo si affaccia?",
+      "options": [
+        {
+          "text": "Lago di Garda",
+          "correct": true
+        },
+        {
+          "text": "Lago di Iseo",
+          "correct": false
+        },
+        {
+          "text": "Lago di Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 376
+    },
+    {
+      "masterNumber": 381,
+      "question": "E' la terza città della Lombardia come numero di abitanti:",
+      "options": [
+        {
+          "text": "Brescia",
+          "correct": false
+        },
+        {
+          "text": "Monza",
+          "correct": true
+        },
+        {
+          "text": "Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 381
+    },
+    {
+      "masterNumber": 383,
+      "question": "Qual è la produzione tipica dell'artigianato di Cremona?",
+      "options": [
+        {
+          "text": "Strumenti musicali",
+          "correct": true
+        },
+        {
+          "text": "Armi",
+          "correct": false
+        },
+        {
+          "text": "Manufatti in legno",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 383
+    },
+    {
+      "masterNumber": 385,
+      "question": "E' nota, oltre che per la sua stupenda piazza su cui si affacciano il Duomo ed un castello antico, anche quale importante centro calzaturiero della Lombardia:",
+      "options": [
+        {
+          "text": "Varese",
+          "correct": false
+        },
+        {
+          "text": "Lodi",
+          "correct": false
+        },
+        {
+          "text": "Vigevano",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 385
+    },
+    {
+      "masterNumber": 386,
+      "question": "Il patrocinio dei Gonzaga, l'opera, tra gli altri del Mantegna e di Giulio Romano, hanno reso noto questo capoluogo di provincia uno stupendo centro turistico/culturale:",
+      "options": [
+        {
+          "text": "Pavia",
+          "correct": false
+        },
+        {
+          "text": "Mantova",
+          "correct": true
+        },
+        {
+          "text": "Lecco",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 386
+    },
+    {
+      "masterNumber": 395,
+      "question": "Il Cenacolo di Leonardo Da Vinci, Capolavoro rinascimentale, si trova a Milano. In quale di questi luoghi?",
+      "options": [
+        {
+          "text": "Nella Pinacoteca di Brera",
+          "correct": false
+        },
+        {
+          "text": "Nella Chiesa di Santa Maria delle Grazie",
+          "correct": true
+        },
+        {
+          "text": "Nel Castello Sforzesco",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 395
+    },
+    {
+      "masterNumber": 399,
+      "question": "La città di Codogno è raggiunta dalla seguente statale",
+      "options": [
+        {
+          "text": "N° 591 Cremasca",
+          "correct": true
+        },
+        {
+          "text": "N° 36 del Lago di Como e dello Spluga",
+          "correct": false
+        },
+        {
+          "text": "N° 472 Bergamina",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 399
+    },
+    {
+      "masterNumber": 411,
+      "question": "La stazione ferroviaria di MI Rogoredo è servita da linea metropolitana, quale?",
+      "options": [
+        {
+          "text": "Linea 2, verde",
+          "correct": false
+        },
+        {
+          "text": "Linea 3, gialla",
+          "correct": true
+        },
+        {
+          "text": "Linea 1, rossa",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 411
+    },
+    {
+      "masterNumber": 442,
+      "question": "Rispetto a Milano dove si trova il comune di Seregno ?",
+      "options": [
+        {
+          "text": "Sud-Est",
+          "correct": false
+        },
+        {
+          "text": "Nord-Est",
+          "correct": false
+        },
+        {
+          "text": "Nord",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 442
+    },
+    {
+      "masterNumber": 457,
+      "question": "In  che provincia si trova il castello di Masnago ?",
+      "options": [
+        {
+          "text": "Varese",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Sondrio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 457
+    },
+    {
+      "masterNumber": 458,
+      "question": "Quale linea MM passa per Famagosta ?",
+      "options": [
+        {
+          "text": "Rossa",
+          "correct": false
+        },
+        {
+          "text": "Gialla",
+          "correct": false
+        },
+        {
+          "text": "Verde",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 458
+    },
+    {
+      "masterNumber": 460,
+      "question": "Quale fiume fa da confine tra le provincie di PV e Vercelli ?",
+      "options": [
+        {
+          "text": "Po",
+          "correct": false
+        },
+        {
+          "text": "Ticino",
+          "correct": false
+        },
+        {
+          "text": "Sesia",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 460
+    },
+    {
+      "masterNumber": 469,
+      "question": "Dove si trova il comune di Gaggiano ?",
+      "options": [
+        {
+          "text": "SS9 Via Emilia",
+          "correct": false
+        },
+        {
+          "text": "SS412 Val Tidone",
+          "correct": false
+        },
+        {
+          "text": "SS 494 Vigevanese",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 469
+    },
+    {
+      "masterNumber": 482,
+      "question": "Dove si trova Ispra ?",
+      "options": [
+        {
+          "text": "Lago di Varese",
+          "correct": false
+        },
+        {
+          "text": "Lago Maggiore",
+          "correct": true
+        },
+        {
+          "text": "Nella Lomellina",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 482
+    },
+    {
+      "masterNumber": 495,
+      "question": "Quale di questi tratti di linee MM viaggia in superficie ?",
+      "options": [
+        {
+          "text": "Cimiano-Cascina Gobba",
+          "correct": true
+        },
+        {
+          "text": "Brenta-Corvetto",
+          "correct": false
+        },
+        {
+          "text": "Bisceglie-Gambara",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 495
+    },
+    {
+      "masterNumber": 504,
+      "question": "La SS36 dello Spluga collega ?",
+      "options": [
+        {
+          "text": "La Val Ceresio alla Valtellina",
+          "correct": false
+        },
+        {
+          "text": "La Valganna alla Val D'intelvi",
+          "correct": false
+        },
+        {
+          "text": "La Valtellina con la Svizzera",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 504
+    },
+    {
+      "masterNumber": 505,
+      "question": "In che zona si trova il quartiere Ortica",
+      "options": [
+        {
+          "text": "Est",
+          "correct": true
+        },
+        {
+          "text": "Ovest",
+          "correct": false
+        },
+        {
+          "text": "Sud",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 505
+    },
+    {
+      "masterNumber": 508,
+      "question": "Quali di queste città attraversa la linea ferroviaria MI-Mortara-Alessandria ?",
+      "options": [
+        {
+          "text": "Gaggiano",
+          "correct": true
+        },
+        {
+          "text": "Secugnago",
+          "correct": false
+        },
+        {
+          "text": "Villasanta",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 508
+    },
+    {
+      "masterNumber": 512,
+      "question": "In base alle tariffe predeterminate stabilite dalla regione Lombardia, a quantro ammonta l'importo per la tratta fiera di Rho/Pero-Malpensa e viceversa ?",
+      "options": [
+        {
+          "text": "70 euro",
+          "correct": false
+        },
+        {
+          "text": "65 euro",
+          "correct": true
+        },
+        {
+          "text": "75 euro",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 512
+    },
+    {
+      "masterNumber": 519,
+      "question": "I comuni sono autorizzati a comunicare entro il 31/12 di ogni anno il nr delle licenze rilasciate in eccedenza rispetto alle relative quote loro assegnate",
+      "options": [
+        {
+          "text": "NO",
+          "correct": false
+        },
+        {
+          "text": "Si, alla regione",
+          "correct": false
+        },
+        {
+          "text": "Si, alla provincia",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 519
+    },
+    {
+      "masterNumber": 524,
+      "question": "Da quanti articoli è composta la legge quadro 21/92 ?",
+      "options": [
+        {
+          "text": "15",
+          "correct": true
+        },
+        {
+          "text": "19",
+          "correct": false
+        },
+        {
+          "text": "22",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 524
+    },
+    {
+      "masterNumber": 536,
+      "question": "A chi è affidata , ai sensi dell'art.n°4 della legge 15 gennaio 1992,n°21 la competenza in materia di trasporto mediante autoservizi pubblici non di linea",
+      "options": [
+        {
+          "text": "alle regioni",
+          "correct": true
+        },
+        {
+          "text": "alla prefettura territorialmente competente",
+          "correct": false
+        },
+        {
+          "text": "alla questura del capoluogo di provincia",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 536
+    },
+    {
+      "masterNumber": 538,
+      "question": "Secondo la legge 15 gennaio 1992N°21 è ammesso il cumulo di più licenze per l'esercizio del sevizio taxi e dell'autorizzazione per l'esercizio del servizio di noleggio con conducente",
+      "options": [
+        {
+          "text": "si",
+          "correct": false
+        },
+        {
+          "text": "no",
+          "correct": true
+        },
+        {
+          "text": "si, previa autorizzazione rilasciata dal presidente della Giunta regionale",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 538
+    },
+    {
+      "masterNumber": 550,
+      "question": "quale di queste città è famosa per il torrazzo?",
+      "options": [
+        {
+          "text": "Cremona",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 550
+    },
+    {
+      "masterNumber": 553,
+      "question": "con che legge viene regolato il rapporto di lavoro con il sostituto alla guida?",
+      "options": [
+        {
+          "text": "con la legge che regolamenta la collaborazione con ritenuta di acconto",
+          "correct": false
+        },
+        {
+          "text": "con la legge 20/95",
+          "correct": false
+        },
+        {
+          "text": "con la legge n°230 del 18/4/62",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 553
+    },
+    {
+      "masterNumber": 556,
+      "question": "il bacino di utenza aeroportuale è costituito da?",
+      "options": [
+        {
+          "text": "l'insieme dei sedimi aeroportuali di Linate, Malpensa, Orio al Serio",
+          "correct": false
+        },
+        {
+          "text": "tutti i capoluoghi di provincia della regione lombardia",
+          "correct": false
+        },
+        {
+          "text": "dall'insieme del territorio della provincia in cui ricadono gli scali",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 556
+    },
+    {
+      "masterNumber": 579,
+      "question": "gli abitanti di cinisello sono compresi tra:",
+      "options": [
+        {
+          "text": "100.000-150.000",
+          "correct": false
+        },
+        {
+          "text": "50.000-100.000",
+          "correct": false
+        },
+        {
+          "text": "50.000-80.000",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 579
+    },
+    {
+      "masterNumber": 588,
+      "question": "agli NCC cui è stata rilasciata l'autorizzazione di un altro comune possono usufruire di qualsiasi struttura preordinata allo scopo ubicata nel comune di milano?",
+      "options": [
+        {
+          "text": "si",
+          "correct": false
+        },
+        {
+          "text": "no",
+          "correct": true
+        },
+        {
+          "text": "si purchè l'intestatario risieda a milano",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 588
+    },
+    {
+      "masterNumber": 591,
+      "question": "quale di queste due città non sono divise da altre province?",
+      "options": [
+        {
+          "text": "Varese-Lecco",
+          "correct": false
+        },
+        {
+          "text": "Varese-Milano",
+          "correct": true
+        },
+        {
+          "text": "Varese-Mantova",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 591
+    },
+    {
+      "masterNumber": 610,
+      "question": "nelle zone ad intensa conurbazione individuate ai sensi della legge 20/95 i veicoli adibiti al servizio taxi hanno diritto di:",
+      "options": [
+        {
+          "text": "effettuare il servizio nelle apposite aree di sosta",
+          "correct": true
+        },
+        {
+          "text": "effettuare il servizio anche al di fuori del proprio turno di servizio",
+          "correct": false
+        },
+        {
+          "text": "requisire la licenza della regione senza concorso publico",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 610
+    },
+    {
+      "masterNumber": 616,
+      "question": "dove viene pubblicato un decreto legge regionale",
+      "options": [
+        {
+          "text": "sul b.u.r.l.",
+          "correct": true
+        },
+        {
+          "text": "su un quotidiano a tiratura nazionale",
+          "correct": false
+        },
+        {
+          "text": "su un quotidiano a tiratura regionale",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 616
+    },
+    {
+      "masterNumber": 619,
+      "question": "dove si effettua il cambio di restenza:",
+      "options": [
+        {
+          "text": "presso la Camera di Commercio, Industria e Artigianato",
+          "correct": false
+        },
+        {
+          "text": "presso l'ufficio trasporti e mobilità di Milano",
+          "correct": true
+        },
+        {
+          "text": "presso l'ufficio trasporti e mobilità della provincia di Milano",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 619
+    },
+    {
+      "masterNumber": 620,
+      "question": "secondo la legge 20/95 quale ente interviene per monitorare il traffico nel bacino di utenza aeroportuale:",
+      "options": [
+        {
+          "text": "l'università dietro autorizzazione della giunta regionale",
+          "correct": true
+        },
+        {
+          "text": "la commissione comunale",
+          "correct": false
+        },
+        {
+          "text": "la commissione regionale",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 620
+    },
+    {
+      "masterNumber": 639,
+      "question": "la cifra indicata sul tassametro nelle corse in partenza dal sistema aeroportuale lombardo è comprensivo del ritorno:",
+      "options": [
+        {
+          "text": "no",
+          "correct": false
+        },
+        {
+          "text": "si",
+          "correct": true
+        },
+        {
+          "text": "deve essere maggiorato del 20%",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 639
+    },
+    {
+      "masterNumber": 665,
+      "question": "La competenza in materia di trasporto mediante autoservizi pubblici non di linea è affidata ai sensi dell'art. 4 della Legge 15 gennaio 1992 n. 21:",
+      "options": [
+        {
+          "text": "al Comune",
+          "correct": false
+        },
+        {
+          "text": "alle Regioni e agli enti locali delegati",
+          "correct": true
+        },
+        {
+          "text": "all'ufficio provinciale della Motorizzazione Civile",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 665
+    },
+    {
+      "masterNumber": 701,
+      "question": "Ai sensi dell'art. 8 della Legge 15 gennaio 1992 n. 21 è ammesso, in capo ad un medesimo soggetto, il cumulo della licenza taxi e dell'autorizzazione  per l'esercizio del servizio di noleggio con conducente:",
+      "options": [
+        {
+          "text": "no",
+          "correct": false
+        },
+        {
+          "text": "ove eserciti con natanti",
+          "correct": true
+        },
+        {
+          "text": "ove eserciti con motocarrozzette",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 701
+    },
+    {
+      "masterNumber": 704,
+      "question": "Ai sensi dell'art. 10 della Legge 15 gennaio 1992 n. 21, i titolari di licenza per l'esercizio del servizio taxi possono essere sostituiti temporaneamente  da persone iscritte nel ruolo di cui all'art. 6 Legge 15 gennaio 1992 n.21, nel caso di:",
+      "options": [
+        {
+          "text": "sempre",
+          "correct": false
+        },
+        {
+          "text": "sospensione o ritiro temporaneo della patente di guida",
+          "correct": true
+        },
+        {
+          "text": "chiamata alle armi per ferma prolungata",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 704
+    },
+    {
+      "masterNumber": 714,
+      "question": "Garegnano è:",
+      "options": [
+        {
+          "text": "una Certosa di Milano",
+          "correct": true
+        },
+        {
+          "text": "una famosa località turistica sul lago di Garda",
+          "correct": false
+        },
+        {
+          "text": "un fiume della Val Trebbia",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 714
+    },
+    {
+      "masterNumber": 717,
+      "question": "Piazza della Loggia in quale città della Lombardia si trova:",
+      "options": [
+        {
+          "text": "Brescia",
+          "correct": true
+        },
+        {
+          "text": "Varese",
+          "correct": false
+        },
+        {
+          "text": "Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 717
+    },
+    {
+      "masterNumber": 723,
+      "question": "Quale di queste tre città è famosa per il \"Torrazzo\"?",
+      "options": [
+        {
+          "text": "Cremona",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 722
+    },
+    {
+      "masterNumber": 783,
+      "question": "Quale linea della metropolitana milanese passa dalla Stazione di P.ta Garibaldi:",
+      "options": [
+        {
+          "text": "la linea rossa",
+          "correct": false
+        },
+        {
+          "text": "la linea gialla",
+          "correct": false
+        },
+        {
+          "text": "la linea verde",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 762
+    },
+    {
+      "masterNumber": 790,
+      "question": "Ai sensi dell'art. 9 della Legge 15 gennaio 1992, n. 21, al titolare di licenza di taxi che abbia trasferito ad altri tale titolo può essere attribuita una nuova licenza per concorso pubblico:",
+      "options": [
+        {
+          "text": "no",
+          "correct": true
+        },
+        {
+          "text": "si dopo 5 anni dal trasferimento",
+          "correct": false
+        },
+        {
+          "text": "si dopo 7 anni dal trasferimento",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 769
+    },
+    {
+      "masterNumber": 791,
+      "question": "Il termine entro il quale i comuni devono rendere conformi i regolamenti comunali alle norme della Legge 15 gennaio 1992 n. 21 è di:",
+      "options": [
+        {
+          "text": "un anno dall'entrata in vigore della Legge 15 gennaio 1992 n. 21",
+          "correct": false
+        },
+        {
+          "text": "due anni dall'entrata in vigore della Legge 15 gennaio 1992 n. 21",
+          "correct": true
+        },
+        {
+          "text": "tre anni dall'entrata in vigore della Legge 15 gennaio 1992 n. 21",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 770
+    },
+    {
+      "masterNumber": 792,
+      "question": "In relazione a quanto previsto dall'articolo 51 della Legge Regionale 14 luglio 2009, n. 11, quale organismo deve rilevare il mutamento di mobilità per ciascun bacino di traffico ?",
+      "options": [
+        {
+          "text": "Università degli Studi di Milano su incarico della Giunta Regionale",
+          "correct": false
+        },
+        {
+          "text": "La commissione consultiva regionale di cui all'articolo 4, co. 4, della Legge 15 gennaio 1992 n. 21",
+          "correct": true
+        },
+        {
+          "text": "La commissione regionale per la formazione e la conservazione dei ruoli",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 771
+    },
+    {
+      "masterNumber": 795,
+      "question": "L'iscrizione al ruolo dei conducenti, di cui all'art. 6 della legge 15 gennaio 1992, n. 21, è obbligatoria per prestare l'attività di conducente di veicoli o natanti adibiti a servizi pubblici non di linea in qualità di:",
+      "options": [
+        {
+          "text": "sostituto del titolare o di dipendente di impresa",
+          "correct": true
+        },
+        {
+          "text": "sostituto del titolare",
+          "correct": false
+        },
+        {
+          "text": "dipendente di impresa",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 774
+    },
+    {
+      "masterNumber": 803,
+      "question": "Qual è la denominazione/destinazione della autostrada A21:",
+      "options": [
+        {
+          "text": "Cremona- Brescia",
+          "correct": false
+        },
+        {
+          "text": "Torino-Piacenza- Brescia",
+          "correct": true
+        },
+        {
+          "text": "Torino- Cremona-Brescia",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 782
+    },
+    {
+      "masterNumber": 806,
+      "question": "Quale linea della metropolitana di Milano non transita dalla Stazione Centrale?",
+      "options": [
+        {
+          "text": "Verde",
+          "correct": false
+        },
+        {
+          "text": "gialla",
+          "correct": false
+        },
+        {
+          "text": "rossa",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 785
+    },
+    {
+      "masterNumber": 809,
+      "question": "Una di queste località termali non è in Lombardia",
+      "options": [
+        {
+          "text": "Boario Terme",
+          "correct": false
+        },
+        {
+          "text": "Comano Terme",
+          "correct": true
+        },
+        {
+          "text": "Salice Terme",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 788
+    },
+    {
+      "masterNumber": 828,
+      "question": "Quant'è la popolazione della Lombardia in base ai dati ISTAT, al 1 gennaio 2011",
+      "options": [
+        {
+          "text": " meno di 8 milioni di abitanti",
+          "correct": false
+        },
+        {
+          "text": "tra 8 milioni e 9 milioni di abitanti",
+          "correct": false
+        },
+        {
+          "text": "tra 9 milioni e 10 milioni di abitanti",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 806
+    },
+    {
+      "masterNumber": 832,
+      "question": "Dove si trova un celebre Castello di San Giorgio e un Palazzo Ducale già residenza dei Gonzaga",
+      "options": [
+        {
+          "text": "Cremona",
+          "correct": false
+        },
+        {
+          "text": "Mantova",
+          "correct": true
+        },
+        {
+          "text": "Pavia",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 810
+    },
+    {
+      "masterNumber": 856,
+      "question": "Ai sensi dell'art. 2 della Legge 15 gennaio 1992 n. 21, chi stabilisce sanzioni amministrative per l'inosservanza dell'obbligo del servizio taxi nelle aree comunali o comprensoriali ?",
+      "options": [
+        {
+          "text": "le regioni",
+          "correct": true
+        },
+        {
+          "text": "le Camere di Commercio Industria Artigianato e Agricoltura",
+          "correct": false
+        },
+        {
+          "text": "gli organi di polizia stradale",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 833
+    },
+    {
+      "masterNumber": 857,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo iniziale feriale ammonta a:",
+      "options": [
+        {
+          "text": "3.28",
+          "correct": false
+        },
+        {
+          "text": "3.3",
+          "correct": true
+        },
+        {
+          "text": "3.35",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 834
+    },
+    {
+      "masterNumber": 859,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo chilometrico ammonta a:",
+      "options": [
+        {
+          "text": "0.95",
+          "correct": false
+        },
+        {
+          "text": "1",
+          "correct": false
+        },
+        {
+          "text": "1.09",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 836
+    },
+    {
+      "masterNumber": 868,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, la tariffa minima per le corse in partenza dagli aeroporti ammonta a:",
+      "options": [
+        {
+          "text": "5.24",
+          "correct": true
+        },
+        {
+          "text": "5.4",
+          "correct": false
+        },
+        {
+          "text": "5.9",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 845
+    },
+    {
+      "masterNumber": 872,
+      "question": "I … to the cinema every Friday",
+      "options": [
+        {
+          "text": "go",
+          "correct": true
+        },
+        {
+          "text": "goes",
+          "correct": false
+        },
+        {
+          "text": "am going",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 849
+    },
+    {
+      "masterNumber": 891,
+      "question": "In my course there is only one man and four ….",
+      "options": [
+        {
+          "text": "women",
+          "correct": true
+        },
+        {
+          "text": "womens",
+          "correct": false
+        },
+        {
+          "text": "womans",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 868
+    },
+    {
+      "masterNumber": 899,
+      "question": "Tell me, is … your coat?",
+      "options": [
+        {
+          "text": "those",
+          "correct": false
+        },
+        {
+          "text": "it",
+          "correct": false
+        },
+        {
+          "text": "this",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 876
+    },
+    {
+      "masterNumber": 900,
+      "question": "I'd like some coffee. I'm afraid there isn't …",
+      "options": [
+        {
+          "text": "anything",
+          "correct": false
+        },
+        {
+          "text": "any",
+          "correct": true
+        },
+        {
+          "text": "some",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 877
+    },
+    {
+      "masterNumber": 910,
+      "question": "John and Mary have been married … last October.",
+      "options": [
+        {
+          "text": "in",
+          "correct": false
+        },
+        {
+          "text": "to",
+          "correct": false
+        },
+        {
+          "text": "since",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 887
+    },
+    {
+      "masterNumber": 933,
+      "question": "I wish you …",
+      "options": [
+        {
+          "text": "are here",
+          "correct": false
+        },
+        {
+          "text": "were here",
+          "correct": true
+        },
+        {
+          "text": "was here",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 910
+    },
+    {
+      "masterNumber": 937,
+      "question": "My friend doesn't speak Chinese. I don't ….",
+      "options": [
+        {
+          "text": "too",
+          "correct": false
+        },
+        {
+          "text": "also",
+          "correct": false
+        },
+        {
+          "text": "either",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 914
+    },
+    {
+      "masterNumber": 938,
+      "question": "It's time … some work.",
+      "options": [
+        {
+          "text": "she did",
+          "correct": true
+        },
+        {
+          "text": "for to do",
+          "correct": false
+        },
+        {
+          "text": "she would do",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 915
+    },
+    {
+      "masterNumber": 942,
+      "question": "We're having the party at ….",
+      "options": [
+        {
+          "text": "the Deborah's house",
+          "correct": false
+        },
+        {
+          "text": "Deborah's",
+          "correct": true
+        },
+        {
+          "text": "house of Deborah's",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 919
+    },
+    {
+      "masterNumber": 943,
+      "question": "It's now 9 o'clock and the train … arrive at 8:15.",
+      "options": [
+        {
+          "text": "must gone",
+          "correct": false
+        },
+        {
+          "text": "was due to",
+          "correct": true
+        },
+        {
+          "text": "will",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 920
+    },
+    {
+      "masterNumber": 944,
+      "question": "I'd like some coffee. I'm afraid there isn't …",
+      "options": [
+        {
+          "text": "more",
+          "correct": false
+        },
+        {
+          "text": "any",
+          "correct": true
+        },
+        {
+          "text": "anything",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 921
+    },
+    {
+      "masterNumber": 946,
+      "question": "I do not like tests. Neither …",
+      "options": [
+        {
+          "text": "do I",
+          "correct": true
+        },
+        {
+          "text": "I do",
+          "correct": false
+        },
+        {
+          "text": "I don't",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 923
+    }
+  ]
+}
