@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17365D">
+  <title>Training Percorsi Taxi Milano</title>
+  <style>
+    :root{
+      --navy:#17365D; --blue:#4472C4; --bg:#f3f6fa; --card:#fff;
+      --line:#d7dfe9; --green:#16874a; --greenbg:#dff4e8;
+      --red:#b42318; --redbg:#fde2e0; --amber:#7a5500; --amberbg:#fff3cd;
+      --text:#111827; --muted:#6b7280;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--text)}
+    button,select{font:inherit}
+    .app{max-width:860px;margin:0 auto;padding:14px 14px 70px}
+    .hero{background:var(--navy);color:white;border-radius:24px;padding:22px;margin:8px 0 14px}
+    .hero h1{margin:0;font-size:30px;line-height:1.05}
+    .hero p{margin:8px 0 0;font-size:17px;opacity:.92}
+    .hero .sub{font-size:13px;opacity:.78;margin-top:7px}
+    .back{display:inline-block;margin-top:12px;padding:10px 13px;background:var(--blue);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
+    .sticky{position:sticky;top:0;z-index:10;background:rgba(243,246,250,.96);backdrop-filter:blur(10px);padding:7px 0 9px}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+    .kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:9px 5px;text-align:center;color:var(--muted);font-size:12px}
+    .kpi b{display:block;color:var(--text);font-size:21px;margin-top:3px}
+    .controls{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:7px}
+    .controls button,.toolbar button,.modebar button{border:1px solid var(--line);background:#fff;border-radius:12px;padding:10px 7px;font-weight:800;color:#1976d2}
+    .controls .primary{background:var(--navy);color:white;border-color:var(--navy)}
+    .controls .danger{color:var(--red)}
+    .controls .active,.modebar .active{background:#e8f0ff;color:var(--navy);border-color:#9bb5df}
+    .progress{height:8px;background:#dbe3ee;border-radius:20px;overflow:hidden;margin-top:8px}
+    #progressBar{height:100%;width:0;background:var(--blue);transition:width .2s}
+    .toolbar{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:12px 0 7px}
+    .toolbar select{width:100%;border:1px solid var(--line);border-radius:12px;background:white;padding:11px 10px;color:var(--text)}
+    .modebar{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:11px}
+    .source-note{background:var(--amberbg);color:var(--amber);border-radius:14px;padding:11px 13px;font-size:13px;line-height:1.4;margin-bottom:12px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:17px;margin-bottom:14px;box-shadow:0 4px 14px rgba(23,54,93,.05)}
+    .meta{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+    .chip{background:#eef2f7;border-radius:999px;padding:6px 9px;color:#687386;font-size:12px}
+    .route-title{font-size:25px;font-weight:900;line-height:1.16;margin:5px 0 12px}
+    .step-progress{font-weight:800;color:var(--navy);margin:6px 0 9px}
+    .built{background:#f7f9fc;border:1px solid var(--line);border-radius:14px;padding:10px;margin-bottom:12px;max-height:260px;overflow:auto}
+    .built.empty{color:var(--muted);font-size:13px}
+    .built-step{display:flex;gap:9px;align-items:flex-start;padding:7px 5px;border-bottom:1px solid #e9edf3;font-size:14px}
+    .built-step:last-child{border-bottom:0}
+    .num{min-width:25px;height:25px;border-radius:50%;background:var(--greenbg);color:var(--green);display:inline-flex;align-items:center;justify-content:center;font-weight:900;font-size:12px}
+    .pool-title{font-size:13px;color:var(--muted);font-weight:800;margin:8px 0}
+    .pool{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .stepbtn{border:2px solid var(--line);background:white;color:#1976d2;border-radius:14px;padding:11px 10px;text-align:left;line-height:1.2;min-height:48px}
+    .stepbtn:active{transform:scale(.99)}
+    .stepbtn.wrongflash{background:var(--redbg);border-color:var(--red);color:var(--red)}
+    .stepbtn.correctflash{background:var(--greenbg);border-color:var(--green);color:var(--green)}
+    .feedback{margin-top:10px;padding:10px 12px;border-radius:12px;font-weight:800;display:none}
+    .feedback.ok{display:block;background:var(--greenbg);color:var(--green)}
+    .feedback.ko{display:block;background:var(--redbg);color:var(--red)}
+    .actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+    .actions button{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff;font-weight:800}
+    .actions .navy{background:var(--navy);color:#fff;border-color:var(--navy)}
+    .actions .hint{color:#7a5500;background:#fffaf0}
+    .solution{display:none;margin-top:12px;background:#f7f9fc;border-radius:14px;padding:11px;border:1px solid var(--line)}
+    .solution.show{display:block}
+    .solution ol{margin:8px 0 0;padding-left:25px}
+    .solution li{margin:5px 0;line-height:1.25}
+    .complete{background:var(--greenbg);color:var(--green);border-radius:16px;padding:14px;font-weight:900;margin:10px 0}
+    .complete.with-errors{background:#fff3cd;color:#7a5500}
+    .footer-nav{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:12px}
+    .footer-nav button{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff;font-weight:800}
+    .report{display:none;background:#fff;border:1px solid var(--line);border-radius:18px;padding:12px;margin-top:12px}
+    .report.show{display:block}
+    .report textarea{width:100%;height:240px;border:1px solid var(--line);border-radius:12px;padding:10px;font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace}
+    details.notes{margin-top:10px;color:var(--muted);font-size:12px}
+    .empty{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;text-align:center;color:var(--muted)}
+    footer{color:var(--muted);font-size:12px;text-align:center;padding:12px}
+    @media(max-width:600px){
+      .app{padding:8px 9px 60px}
+      .hero{border-radius:20px;padding:19px 17px}
+      .hero h1{font-size:27px}
+      .kpi b{font-size:19px}
+      .controls{grid-template-columns:1fr 1fr}
+      .pool{grid-template-columns:1fr}
+      .route-title{font-size:22px}
+    }
+  </style>
+</head>
+<body>
+<main class="app">
+  <header class="hero">
+    <h1>Training Percorsi</h1>
+    <p>Percorsi del Libro 2026 · 102 esercizi</p>
+    <div class="sub">Fonte unica: “LIBRO2026 PERCORSI CORRETTI VERSIONE FINALE 20 LUGLIO 2026”, pagg. 3–29.</div>
+    <a class="back" href="index.html">← Torna al Master completo</a>
+  </header>
+
+  <section class="sticky">
+    <div class="kpis">
+      <div class="kpi">Completati<b id="kCompleted">0/102</b></div>
+      <div class="kpi">Perfetti<b id="kPerfect">0</b></div>
+      <div class="kpi">Errori<b id="kWrong">0</b></div>
+      <div class="kpi">Precisione<b id="kPct">0%</b></div>
+    </div>
+    <div class="controls">
+      <button id="resumeBtn" class="primary">Riprendi</button>
+      <button id="errorsBtn">Solo errori</button>
+      <button id="randomBtn">Casuale</button>
+      <button id="resetBtn" class="danger">Azzera</button>
+    </div>
+    <div class="progress"><div id="progressBar"></div></div>
+  </section>
+
+  <div class="toolbar">
+    <select id="categorySelect" aria-label="Categoria"></select>
+    <select id="routeSelect" aria-label="Percorso"></select>
+  </div>
+
+  <div class="modebar">
+    <button id="sequenceMode" class="active">Sequenza completa</button>
+    <button id="nextMode">Prossima tappa · 4 scelte</button>
+  </div>
+
+  <div class="source-note">
+    Le tappe sono ricavate dal PDF caricato, senza correzioni esterne. Ho incluso anche le entrate/uscite del Duomo e la mini-tratta Duomo → San Babila che mi hai chiesto. 
+    4 sezioni del PDF con rami alternativi o sequenza abbreviata non sono state forzate in un ordine unico.
+  </div>
+
+  <section id="quiz"></section>
+
+  <div id="reportPanel" class="report">
+    <b>Report percorsi con errori</b>
+    <textarea id="reportText" readonly></textarea>
+    <div class="actions">
+      <button id="closeReportBtn">Chiudi</button>
+      <button id="selectReportBtn" class="navy">Seleziona testo</button>
+    </div>
+  </div>
+
+  <footer>Training separato: usa la memoria <b>quizTaxiPercorsi_v1</b> e non modifica il Master né il training dei 94 errori.</footer>
+</main>
+<script src="percorsi.js?v=1"></script>
+</body>
+</html>
