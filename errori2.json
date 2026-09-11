@@ -1,0 +1,803 @@
+{
+  "version": "2026-09-11-ciclo2",
+  "questions": [
+    {
+      "masterNumber": 52,
+      "question": "Quali di questi passi è il più alto?",
+      "options": [
+        {
+          "text": "Il Gavia",
+          "correct": false
+        },
+        {
+          "text": "Lo Stelvio",
+          "correct": true
+        },
+        {
+          "text": "Il San Marco",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 52
+    },
+    {
+      "masterNumber": 68,
+      "question": "Quale di queste città è famosa per il Torrazzo?",
+      "options": [
+        {
+          "text": "Cremona",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 68
+    },
+    {
+      "masterNumber": 125,
+      "question": "Il possesso del certificato di abilitazione professionale per cui all'art. 116 del decreto legislativo del 30/4/1992 n° 285, è requisito indispensabile, ai sensi della Legge Regionale del 15/4/1995 n° 20 , per l'iscrizione:",
+      "options": [
+        {
+          "text": "Al ruolo provinciale dei conducenti",
+          "correct": true
+        },
+        {
+          "text": "Al ruolo provinciale dei conducenti, sezione conducenti di natanti",
+          "correct": false
+        },
+        {
+          "text": "All'apposita lista comunale conducenti di autovetture in attesa di assegnazione licenza",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 125
+    },
+    {
+      "masterNumber": 199,
+      "question": "Il passo dello Stelvio si trova sulla strada SS:",
+      "options": [
+        {
+          "text": "N° 38",
+          "correct": true
+        },
+        {
+          "text": "N° 39",
+          "correct": false
+        },
+        {
+          "text": "N° 42",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 199
+    },
+    {
+      "masterNumber": 212,
+      "question": "La più popolosa città della provincia di Milano escluso il capoluogo è:",
+      "options": [
+        {
+          "text": "Sesto San Giovanni",
+          "correct": false
+        },
+        {
+          "text": "Cinisello Balsamo",
+          "correct": false
+        },
+        {
+          "text": "Monza",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 212
+    },
+    {
+      "masterNumber": 241,
+      "question": "I tassisti legittimati a svolgere il servizio taxi presso gli aeroporti sono tenuti ad applicare le tariffe determinate:",
+      "options": [
+        {
+          "text": "Dal comune di appartenenza",
+          "correct": false
+        },
+        {
+          "text": "Dalla giunta regionale",
+          "correct": true
+        },
+        {
+          "text": "Contrattate direttamente con l'utente",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 241
+    },
+    {
+      "masterNumber": 248,
+      "question": "La città principale dell'Oltrepò Pavese è :",
+      "options": [
+        {
+          "text": "Suzzara",
+          "correct": false
+        },
+        {
+          "text": "Chiavenna",
+          "correct": false
+        },
+        {
+          "text": "Voghera",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 248
+    },
+    {
+      "masterNumber": 250,
+      "question": "A quanto ammonta la cifra cauzionale per una sosta eventuale di un'ora?",
+      "options": [
+        {
+          "text": "Euro 21,70",
+          "correct": true
+        },
+        {
+          "text": "Euro 25,82",
+          "correct": false
+        },
+        {
+          "text": "Euro 26,86",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 250
+    },
+    {
+      "masterNumber": 295,
+      "question": "Chi può essere chiamato a partecipare alle sedute della Commisssione Tecnico- Consultiva:",
+      "options": [
+        {
+          "text": "I Funzionari Direttivi che sovrintendono il servizio",
+          "correct": false
+        },
+        {
+          "text": "I Funzionari del Comune in relazione alle questioni poste all'ordine del giorno",
+          "correct": true
+        },
+        {
+          "text": "I Funzionari dell'ufficio Autopubbliche",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 295
+    },
+    {
+      "masterNumber": 317,
+      "question": "La SS n.342 Briantea attraversa l'abitato di:",
+      "options": [
+        {
+          "text": "Pontida",
+          "correct": true
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        },
+        {
+          "text": "Busto Arsizio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 317
+    },
+    {
+      "masterNumber": 321,
+      "question": "Una di queste strade statali non interessa il territorio di Busto Arsizio, quale?",
+      "options": [
+        {
+          "text": "La SS n.233 Varesina",
+          "correct": true
+        },
+        {
+          "text": "La SS n.336 dell'aereoporto della Malpensa",
+          "correct": false
+        },
+        {
+          "text": "La SS n.527 Bustese",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 321
+    },
+    {
+      "masterNumber": 352,
+      "question": "Interessa il territorio di due province della Lombardia",
+      "options": [
+        {
+          "text": "Il lago di Lugano",
+          "correct": true
+        },
+        {
+          "text": "Il lago D'Idro",
+          "correct": false
+        },
+        {
+          "text": "Il lago di Garda",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 352
+    },
+    {
+      "masterNumber": 377,
+      "question": "Tra i più importanti monumenti della Lombardia vi è ?",
+      "options": [
+        {
+          "text": "La Certosa di Como",
+          "correct": false
+        },
+        {
+          "text": "La Certosa di Brescia",
+          "correct": false
+        },
+        {
+          "text": "La Certosa di Pavia",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 377
+    },
+    {
+      "masterNumber": 390,
+      "question": "Piazza della Loggia si trova in quale città della Lombardia?",
+      "options": [
+        {
+          "text": "Brescia",
+          "correct": true
+        },
+        {
+          "text": "Varese",
+          "correct": false
+        },
+        {
+          "text": "Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 390
+    },
+    {
+      "masterNumber": 393,
+      "question": "Quanti abitanti Ha Pavia?",
+      "options": [
+        {
+          "text": "Tra 70.000 e 80.000",
+          "correct": true
+        },
+        {
+          "text": "Meno di 50.000",
+          "correct": false
+        },
+        {
+          "text": "Più di 100.000",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 393
+    },
+    {
+      "masterNumber": 413,
+      "question": "La SS n° 412 della Val Tidone interessa la provincia di",
+      "options": [
+        {
+          "text": "Pavia",
+          "correct": true
+        },
+        {
+          "text": "Varese",
+          "correct": false
+        },
+        {
+          "text": "Sondrio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 413
+    },
+    {
+      "masterNumber": 437,
+      "question": "In quale provincia si trova il lago di Mezzola ?",
+      "options": [
+        {
+          "text": "Lecco",
+          "correct": false
+        },
+        {
+          "text": "Bergamo",
+          "correct": false
+        },
+        {
+          "text": "Sondrio",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 437
+    },
+    {
+      "masterNumber": 457,
+      "question": "In  che provincia si trova il castello di Masnago ?",
+      "options": [
+        {
+          "text": "Varese",
+          "correct": true
+        },
+        {
+          "text": "Mantova",
+          "correct": false
+        },
+        {
+          "text": "Sondrio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 457
+    },
+    {
+      "masterNumber": 496,
+      "question": "Attraversa il comune di Fino Mornasco",
+      "options": [
+        {
+          "text": "La linea FNM MI-Canzo-asso",
+          "correct": false
+        },
+        {
+          "text": "La linea FNM MI-Laveno Mombello",
+          "correct": false
+        },
+        {
+          "text": "La linea FNM MI-Co",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 496
+    },
+    {
+      "masterNumber": 503,
+      "question": "La Valganna è in provincia di ?",
+      "options": [
+        {
+          "text": "CO",
+          "correct": false
+        },
+        {
+          "text": "VA",
+          "correct": true
+        },
+        {
+          "text": "Sondrio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 503
+    },
+    {
+      "masterNumber": 529,
+      "question": "Quale tra queste leggi regolamenta il servizio aereoportuale in Lombardia ?",
+      "options": [
+        {
+          "text": "Legge 21/92",
+          "correct": false
+        },
+        {
+          "text": "L.R. 1/2002",
+          "correct": true
+        },
+        {
+          "text": "L.R. 12/89",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 529
+    },
+    {
+      "masterNumber": 579,
+      "question": "gli abitanti di cinisello sono compresi tra:",
+      "options": [
+        {
+          "text": "100.000-150.000",
+          "correct": false
+        },
+        {
+          "text": "50.000-100.000",
+          "correct": false
+        },
+        {
+          "text": "50.000-80.000",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 579
+    },
+    {
+      "masterNumber": 596,
+      "question": "quale fiume non passa per Milano",
+      "options": [
+        {
+          "text": "Lambro",
+          "correct": false
+        },
+        {
+          "text": "Naviglio Pavese",
+          "correct": true
+        },
+        {
+          "text": "Olona",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 596
+    },
+    {
+      "masterNumber": 597,
+      "question": "quale linea ferroviaria passa per Rho",
+      "options": [
+        {
+          "text": "Milano-Saronno",
+          "correct": false
+        },
+        {
+          "text": "Milano-Como",
+          "correct": false
+        },
+        {
+          "text": "Milano-Varese",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 597
+    },
+    {
+      "masterNumber": 611,
+      "question": "sono requisiti indispensabili per l'iscrizione al ruolo, ai sensi dellalegge 20/95",
+      "options": [
+        {
+          "text": "l'assolvimento dell'obbligo scolastico e il possesso del cap o della patente nautica",
+          "correct": true
+        },
+        {
+          "text": "l'assolvimento dell'obbligo scolastico e il possesso di idonea licenza rilasciata dalla regione lombardia",
+          "correct": false
+        },
+        {
+          "text": "il possesso della patente e del cap",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 611
+    },
+    {
+      "masterNumber": 662,
+      "question": "Il fiume Mella è affluente del fiume:",
+      "options": [
+        {
+          "text": "Adda",
+          "correct": false
+        },
+        {
+          "text": "Mincio",
+          "correct": false
+        },
+        {
+          "text": "Oglio",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 662
+    },
+    {
+      "masterNumber": 665,
+      "question": "La competenza in materia di trasporto mediante autoservizi pubblici non di linea è affidata ai sensi dell'art. 4 della Legge 15 gennaio 1992 n. 21:",
+      "options": [
+        {
+          "text": "al Comune",
+          "correct": false
+        },
+        {
+          "text": "alle Regioni e agli enti locali delegati",
+          "correct": true
+        },
+        {
+          "text": "all'ufficio provinciale della Motorizzazione Civile",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 665
+    },
+    {
+      "masterNumber": 679,
+      "question": "Quanti abitanti ha Varese in base ai dati ISTAT, al 1 gennaio 2011:",
+      "options": [
+        {
+          "text": "più di 100.000",
+          "correct": false
+        },
+        {
+          "text": "più di 50.000",
+          "correct": true
+        },
+        {
+          "text": "meno di 50.000",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 679
+    },
+    {
+      "masterNumber": 681,
+      "question": "La città principale dell'oltrepò pavese è:",
+      "options": [
+        {
+          "text": "Suzzara",
+          "correct": false
+        },
+        {
+          "text": "Chiavenna",
+          "correct": false
+        },
+        {
+          "text": "Voghera",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 681
+    },
+    {
+      "masterNumber": 717,
+      "question": "Piazza della Loggia in quale città della Lombardia si trova:",
+      "options": [
+        {
+          "text": "Brescia",
+          "correct": true
+        },
+        {
+          "text": "Varese",
+          "correct": false
+        },
+        {
+          "text": "Como",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 717
+    },
+    {
+      "masterNumber": 734,
+      "question": "Ai sensi dell'art. 5 della Legge 15 gennaio 1992, n. 21, i requisiti e le condizioni per il rilascio della licenza per l'esercizio del servizio taxi e del servizio di noleggio con conducente sono stabiliti da:",
+      "options": [
+        {
+          "text": "Comuni",
+          "correct": true
+        },
+        {
+          "text": "Regioni",
+          "correct": false
+        },
+        {
+          "text": "Provincie",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 733
+    },
+    {
+      "masterNumber": 793,
+      "question": "Ai sensi dell'articolo 51 della legge regionale 14 luglio 2009, ai fini della programmazione dei servizi, il territorio regionale è articolato in bacini di traffico corrispondenti :",
+      "options": [
+        {
+          "text": "alle zone territorialmente competenti delle questure",
+          "correct": false
+        },
+        {
+          "text": "alle circoscrizioni amministrative delle province",
+          "correct": true
+        },
+        {
+          "text": "alle zone di influenza delle principali stazioni ferroviarie",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 772
+    },
+    {
+      "masterNumber": 796,
+      "question": "Le Commissioni tecniche provinciali per la formulazione dei ruoli dei conducenti dei veicoli o natanti adibiti a servizi pubblici non di linea, di cui all'art. 26 della legge regionale 4 aprile 2012, n. 6, sono nominate da:",
+      "options": [
+        {
+          "text": "Presidente della Regione",
+          "correct": false
+        },
+        {
+          "text": "Presidente della Provincia",
+          "correct": true
+        },
+        {
+          "text": "Presidente della camera di Commercio",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 775
+    },
+    {
+      "masterNumber": 802,
+      "question": "A quale progressiva chilometrica la tangenziale ovest di Milano incrocia la A7 Milano-Genova:",
+      "options": [
+        {
+          "text": "al Km. 2,5",
+          "correct": false
+        },
+        {
+          "text": "al Km. 20",
+          "correct": true
+        },
+        {
+          "text": "al Km. 31,5",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 781
+    },
+    {
+      "masterNumber": 828,
+      "question": "Quant'è la popolazione della Lombardia in base ai dati ISTAT, al 1 gennaio 2011",
+      "options": [
+        {
+          "text": " meno di 8 milioni di abitanti",
+          "correct": false
+        },
+        {
+          "text": "tra 8 milioni e 9 milioni di abitanti",
+          "correct": false
+        },
+        {
+          "text": "tra 9 milioni e 10 milioni di abitanti",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 806
+    },
+    {
+      "masterNumber": 854,
+      "question": "Lo svolgimento dei servizi pubblici non di linea è disciplinato:",
+      "options": [
+        {
+          "text": "dai regolamenti provinciali",
+          "correct": false
+        },
+        {
+          "text": "dai regolamenti comunali",
+          "correct": true
+        },
+        {
+          "text": "dai regolamenti della regione",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 831
+    },
+    {
+      "masterNumber": 860,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo orario ammonta a:",
+      "options": [
+        {
+          "text": "26.68",
+          "correct": false
+        },
+        {
+          "text": "28.32",
+          "correct": true
+        },
+        {
+          "text": "28.68",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 837
+    },
+    {
+      "masterNumber": 861,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo iniziale notturno ammonta a:",
+      "options": [
+        {
+          "text": "6.5",
+          "correct": true
+        },
+        {
+          "text": "6.35",
+          "correct": false
+        },
+        {
+          "text": "6.95",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 838
+    },
+    {
+      "masterNumber": 867,
+      "question": "Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, la tariffa minima per le corse in partenza dagli aeroporti ammonta a:",
+      "options": [
+        {
+          "text": "11.5",
+          "correct": false
+        },
+        {
+          "text": "12",
+          "correct": false
+        },
+        {
+          "text": "13.1",
+          "correct": true
+        }
+      ],
+      "originalQuizNumber": 844
+    },
+    {
+      "masterNumber": 869,
+      "question": "Where … from?",
+      "options": [
+        {
+          "text": "you are",
+          "correct": false
+        },
+        {
+          "text": "are you",
+          "correct": true
+        },
+        {
+          "text": "are",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 846
+    },
+    {
+      "masterNumber": 917,
+      "question": "What is her job? … nurse.",
+      "options": [
+        {
+          "text": "She is a",
+          "correct": true
+        },
+        {
+          "text": "She",
+          "correct": false
+        },
+        {
+          "text": "She has a",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 894
+    },
+    {
+      "masterNumber": 930,
+      "question": "How much … where you live?",
+      "options": [
+        {
+          "text": "do houses cost",
+          "correct": true
+        },
+        {
+          "text": "does cost houses",
+          "correct": false
+        },
+        {
+          "text": "do cost houses",
+          "correct": false
+        }
+      ],
+      "originalQuizNumber": 907
+    }
+  ]
+}
