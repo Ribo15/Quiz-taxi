@@ -1,0 +1,95 @@
+AUDIT NUOVO FILE QUIZ TAXI
+
+Vecchio database GitHub: 926 domande
+Nuovo file: 949 domande
+Domande aggiunte per numero Master: 28
+Domande rimosse per numero Master: 5
+Domande comuni con testo/opzioni/chiave modificati: 19
+
+AGGIUNTE:
+950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 960, 961, 962, 963, 964, 965, 966, 967, 968, 969, 970, 971, 972, 973, 974, 975, 976, 977
+
+RIMOSSE:
+869, 870, 871, 872, 873
+
+MODIFICATE:
+
+Master 89: Quant'è la quota fissa di partenza per i soggetti legittimati a svolgere il servizio taxi negli aeroporti:
+  Vecchio: [OK] Euro 3,2 | Euro 12,5 | Euro 11
+  Nuovo:  [OK] Euro 3,90 | Euro 15,40 | Euro 6,40
+
+Master 170: Qual è l'importo minimo per la partenza degli aeroporti di Linate, Malpensa e Orio al Serio?
+  Vecchio: [OK] Euro 13,10 | Euro 16,02 | Euro 10,33
+  Nuovo:  [OK] Euro 15,40 | Euro 14,50 | Euro 15,10
+
+Master 250: A quanto ammonta la cifra cauzionale per una sosta eventuale di un'ora?
+  Vecchio: [OK] Euro 21,70 | Euro 25,82 | Euro 26,86
+  Nuovo:  [OK] Euro 33,27 | Euro 31,30 | Euro 33,50
+
+Master 509: In base alle tariffe predeterminate stabilite dalla regione Lombardia, a quantro ammonta l'importo per la tratta MI-Malpensa e viceversa ?
+  Vecchio: [OK] 95 euro | 80 euro | 85 euro
+  Nuovo:  [OK] 110 euro | 104 euro | 115 euro
+
+Master 510: In base alle tariffe predeterminate stabilite dalla regione Lombardia, a quantro ammonta l'importo per la tratta Linate-Malpensa e viceversa ?
+  Vecchio: [OK] 105 euro | 100 euro | 90 euro
+  Nuovo:  [OK] 124 euro | 116 euro | 130 euro
+
+Master 511: In base alle tariffe predeterminate stabilite dalla regione Lombardia, a quantro ammonta l'importo per la tratta fiera di Rho/Pero-Linate e viceversa ?
+  Vecchio: [OK] 55 euro | 65 euro | 75 euro
+  Nuovo:  [OK] 64 euro | 60 euro | 70 euro
+
+Master 512: In base alle tariffe predeterminate stabilite dalla regione Lombardia, a quantro ammonta l'importo per la tratta fiera di Rho/Pero-Malpensa e viceversa ?
+  Vecchio: 70 euro | [OK] 65 euro | 75 euro
+  Nuovo:  95 euro | [OK] 92 euro | 86 euro
+
+Master 527: Le progressioni della tariffa del tassametro avvengono a….
+  Vecchio: A euro 12,70 o oltre 50 km di percorso effettuato | A euro 13 e a euro 25 | [OK] A euro 14,26 e quando si supera la velocità di 50Km/h per più di 60 secondi
+  Nuovo:  A euro 15,70 o oltre 50 km di percorso effettuato | A euro 15 e a euro 30 | [OK] A euro 16,74 e quando si supera la velocità di 50Km/h per più di 60 secondi
+
+Master 528: Quant'è la quota fissa di partenza per i soggetti legittimati a svolgere il servizio taxi agli aereoporti ?
+  Vecchio: Euro 2,50 più eventuali supplementi | Euro 5,00 sempre | [OK] Euro 3,30 feriale, euro 5,40 festivo, euro 6,50 notturno
+  Nuovo:  Euro 2,50 più eventuali supplementi | Euro 5,00 sempre | [OK] Euro 3,90 feriale, euro 6,40 festivo, euro 7,60 notturno
+
+Master 530: Il supplemento notturno per le corse in partenza da Milano è ?
+  Vecchio: il 10% della corsa con un minimo di euro 2,80 | [OK] Euro 5,40 | Il 10% della corsa
+  Nuovo:  il 10% della corsa con un minimo di euro 3,90 | [OK] Euro 7,60 | Il 10% della corsa
+
+Master 619: dove si effettua il cambio di residenza:
+  Vecchio: presso la Camera di Commercio, Industria e Artigianato | [OK] presso l'ufficio trasporti e mobilità di Milano | presso l'ufficio trasporti e mobilità della provincia di Milano
+  Nuovo:  presso la Camera di Commercio, Industria e Artigianato | [OK] presso l'ufficio trasporti e mobilità di Milano | presso l'ufficio trasporti e mobilità della provincia di Milano
+
+Master 857: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo iniziale feriale ammonta a:
+  Vecchio: 3.28 | [OK] 3.3 | 3.35
+  Nuovo:  3.7 | [OK] 3.9 | 3.95
+
+Master 858: Ai sensi della D.g.r. 17 dicembre 2015, n. X/4591 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, a quanto ammonta la tariffa predeterminata Milano/Malpensa?
+  Vecchio: 75 | 85 | [OK] 95
+  Nuovo:  115 | 104 | [OK] 110
+
+Master 859: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo chilometrico ammonta a:
+  Vecchio: 0.95 | 1 | [OK] 1.09
+  Nuovo:  1.12 | 1.3 | [OK] 1.28
+
+Master 860: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo orario ammonta a:
+  Vecchio: 26.68 | [OK] 28.32 | 28.68
+  Nuovo:  34.05 | [OK] 33.27 | 31.3
+
+Master 861: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo iniziale notturno ammonta a:
+  Vecchio: [OK] 6.5 | 6.35 | 6.95
+  Nuovo:  [OK] 7.6 | 7.2 | 7.8
+
+Master 862: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, il costo iniziale festivo ammonta a:
+  Vecchio: [OK] 5.4 | 5.27 | 6.02
+  Nuovo:  [OK] 6.4 | 6 | 6.5
+
+Master 867: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, la tariffa minima per le corse in partenza dagli aeroporti ammonta a:
+  Vecchio: 11.5 | 12 | [OK] 13.1
+  Nuovo:  14.5 | 15.15 | [OK] 15.4
+
+Master 868: Nell'ambito dell'uso convenzionale, ai sensi dell'All. 1 della D.g.r. 1 luglio 2014, n. X/2030 della Disciplina del servizio taxi nel bacino aeroportuale lombardo, la tariffa minima per le corse in partenza dagli aeroporti ammonta a:
+  Vecchio: [OK] 5.24 | 5.4 | 5.9
+  Nuovo:  [OK] 15.4 | 14.5 | 15.1
+
+NOTA:
+La domanda Master 786 contiene 2 risposte marcate OK anche nel nuovo file; non è stata corretta automaticamente.
+Il file sorgente riporta 'TARIFFE LUGLIO 2023': è più aggiornato del vecchio database in molte tariffe, ma non dimostra da solo che sia il tariffario 2026.
