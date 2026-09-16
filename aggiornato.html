@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17365D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Quiz Taxi Milano · Aggiornato</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .report-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:7px}
+    .report-actions button{border:1px solid #d6dde8;border-radius:12px;padding:10px 5px;background:#fff;font-weight:800;font-size:13px;color:#1976d2}
+    .source-note{margin:8px 0;padding:10px 12px;border-radius:12px;background:#fff3cd;color:#765200;font-size:12px;line-height:1.4}
+    #reportPanel{display:none;background:#fff;border:1px solid #d6dde8;border-radius:14px;padding:10px;margin-top:8px}
+    #reportPanel textarea{width:100%;height:240px;border:1px solid #d6dde8;border-radius:10px;padding:9px;font-size:13px}
+  </style>
+</head>
+<body>
+<main class="app">
+  <header class="hero">
+    <h1>Quiz Taxi Milano · Aggiornato</h1>
+    <p>Nuovo file · 949 domande</p>
+  </header>
+
+  <div class="source-note">
+    Fonte: “DEF- Quiz_per argomenti_ Tariffe 2023-1.xls”, convertito senza cambiare le chiavi.
+    Questa pagina usa un salvataggio separato dal Master da 926 domande.
+  </div>
+
+  <section class="sticky">
+    <div class="kpis">
+      <div class="kpi">Risposte<b id="kAnswered">0/949</b></div>
+      <div class="kpi">Giuste<b id="kCorrect">0</b></div>
+      <div class="kpi">Errate<b id="kWrong">0</b></div>
+      <div class="kpi">Precisione<b id="kPct">0%</b></div>
+    </div>
+
+    <div class="actions">
+      <button id="resumeBtn" class="primary">Riprendi</button>
+      <button id="errorsBtn">Solo errori</button>
+      <button id="allBtn">Tutte</button>
+      <button id="resetBtn" class="danger">Azzera</button>
+    </div>
+
+    <div class="report-actions">
+      <button id="exportBtn">Esporta errori</button>
+      <button id="copyBtn">Copia errori</button>
+    </div>
+
+    <div class="progress"><div id="progressBar"></div></div>
+    <div id="status" class="status"></div>
+
+    <div id="reportPanel">
+      <b>Report errori</b>
+      <textarea id="reportText" readonly></textarea>
+    </div>
+  </section>
+
+  <section id="quiz"></section>
+
+  <footer>
+    Domande, alternative e chiavi copiate dal nuovo file. La domanda Master n. 786 mantiene le 2 risposte “ok” presenti nella fonte.
+  </footer>
+</main>
+<script src="aggiornato.js?v=1"></script>
+</body>
+</html>
