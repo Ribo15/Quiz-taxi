@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17365D">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Quiz Taxi Milano · Ordine casuale</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .report-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:7px}
+    .report-actions button{border:1px solid #d6dde8;border-radius:12px;padding:10px 5px;background:#fff;font-weight:800;font-size:13px;color:#1976d2}
+    .source-note{margin:8px 0;padding:10px 12px;border-radius:12px;background:#e8f1ff;color:#17365D;font-size:12px;line-height:1.4}
+    #reportPanel{display:none;background:#fff;border:1px solid #d6dde8;border-radius:14px;padding:10px;margin-top:8px}
+    #reportPanel textarea{width:100%;height:240px;border:1px solid #d6dde8;border-radius:10px;padding:9px;font-size:13px}
+  </style>
+</head>
+<body>
+<main class="app">
+  <header class="hero">
+    <h1>Quiz Taxi Milano · Mischiato</h1>
+    <p>949 domande · ordine casuale per ogni nuovo ciclo</p>
+  </header>
+
+  <div class="source-note">
+    Le domande e le alternative restano identiche al file aggiornato. Cambia solo l’ordine delle domande.
+    L’ordine resta stabile mentre svolgi il ciclo; premendo “Azzera” viene creato un nuovo ordine casuale.
+  </div>
+
+  <section class="sticky">
+    <div class="kpis">
+      <div class="kpi">Risposte<b id="kAnswered">0/949</b></div>
+      <div class="kpi">Giuste<b id="kCorrect">0</b></div>
+      <div class="kpi">Errate<b id="kWrong">0</b></div>
+      <div class="kpi">Precisione<b id="kPct">0%</b></div>
+    </div>
+
+    <div class="actions">
+      <button id="resumeBtn" class="primary">Riprendi</button>
+      <button id="errorsBtn">Solo errori</button>
+      <button id="allBtn">Tutte</button>
+      <button id="resetBtn" class="danger">Azzera</button>
+    </div>
+
+    <div class="report-actions">
+      <button id="exportBtn">Esporta errori</button>
+      <button id="copyBtn">Copia errori</button>
+    </div>
+
+    <div class="progress"><div id="progressBar"></div></div>
+    <div id="status" class="status"></div>
+
+    <div id="reportPanel">
+      <b>Report errori</b>
+      <textarea id="reportText" readonly></textarea>
+    </div>
+  </section>
+
+  <section id="quiz"></section>
+
+  <footer>
+    Domande, alternative e chiavi non modificate. Il numero Master originale resta sempre visibile.
+  </footer>
+</main>
+<script src="aggiornato_mischiato.js?v=1"></script>
+</body>
+</html>
